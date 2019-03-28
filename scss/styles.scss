@@ -1,2 +1,7 @@
 @import "config";
 @import "_nav";
+
+body {
+	background-color: $primary-color;
+	color: pink;
+}
