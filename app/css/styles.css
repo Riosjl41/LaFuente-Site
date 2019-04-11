@@ -1,3 +1,35 @@
 body {
-  background-color: #132595;
-  color: pink; }
+  color: red; }
+
+.carousel {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  overflow: hidden; }
+
+.carousel__slides {
+    display: flex;
+    height: 500px; }
+
+.carousel__slides img {
+      width: 100%; }
+
+.prev {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  cursor: pointer; }
+
+.next {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  cursor: pointer; }
+
+.carousel__slide {
+  display: none; }
+
+.carousel__slide--current {
+    display: block; }
