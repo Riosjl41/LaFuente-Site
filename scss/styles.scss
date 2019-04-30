@@ -1,5 +1,6 @@
 @import "config";
 @import "_nav";
+@import "_about";
 
 * {
 	box-sizing: border-box;
@@ -13,7 +14,7 @@ body {
 .title {
 	background-image: url(../dist/images/taiana-martinez-tai-s-captures-1430583-unsplash.jpg);
 	background-size: cover;
-	height: 75vh;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
