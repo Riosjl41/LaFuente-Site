@@ -1,0 +1,14 @@
+@import "config";
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	background-color: lighten($Orange, 15%);
+}
+
+nav li {
+	flex-direction: row;
+	list-style: none;
+	padding: 0 5vw;
+	font-size: 1.5rem;
+}

@@ -1,2 +1,25 @@
 @import "config";
 @import "_nav";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+}
+
+.title {
+	background-image: url(../dist/images/taiana-martinez-tai-s-captures-1430583-unsplash.jpg);
+	background-size: cover;
+	height: 75vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__name {
+		font-weight: 800;
+		font-size: 3rem;
+	}
+}
