@@ -10,6 +10,8 @@ nav ul {
 	display: flex;
 	justify-content: center;
 	background-color: lighten($Orange, 15%);
+	height: 80px;
+	align-items: center;
 }
 
 nav li {
@@ -20,5 +22,10 @@ nav li {
 
 	a {
 		text-decoration: none;
+		color: darken($Blue, 20%);
+
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 }
