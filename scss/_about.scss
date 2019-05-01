@@ -2,14 +2,14 @@
 
 .about {
 	&__greeting {
-		height: 50vh;
+		height: 90vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		background-color: $Blue;
 		font-size: 1.3rem;
 		font-weight: 500;
+		color: $Orange;
 	}
 
 	&__heading {
@@ -22,20 +22,30 @@
 		width: 40%;
 	}
 
-	&__images {
+	&__restaurant {
 		height: 70vh;
 		display: flex;
 
-		&-left {
+		&--left {
 			width: 50vw;
-			background-image: url(../src/images/tacos__about.jpg);
-			background-size: 100% 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			column-count: 2;
+			column-rule-style: solid;
+
+			&-heading {
+				color: $Orange;
+				font-size: 2rem;
+			}
 		}
 
-		&-right {
+		&--right {
 			width: 50vw;
-			background-image: url(../src/images/restaurant__about.jpg);
-			background-size: cover;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 	}
 }

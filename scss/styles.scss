@@ -8,16 +8,21 @@
 	padding: 0;
 }
 
+body {
+	background: #ffffff;
+}
+
 .title {
 	background-image: url(../src/images/taiana-martinez-tai-s-captures-1430583-unsplash.jpg);
-	background-size: 100% 100%;
+	background-size: cover;
 	height: 100vh;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
-	color: #ffffff;
+	color: darken($Blue, 35%);
 
 	&__name {
+		margin-left: 20px;
 		font-weight: 800;
 		font-size: 3rem;
 	}
