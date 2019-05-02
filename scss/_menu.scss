@@ -1,0 +1,71 @@
+@import "_config";
+
+.menu {
+	height: 200vh;
+
+	&__heading {
+		text-align: center;
+		font-size: 3rem;
+		padding: 100px;
+	}
+
+	&__app {
+		background-image: url(../src/images/Nachos.jpg);
+		height: 500px;
+
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	&__tb {
+		background-image: url(../src/images/tacos.jpg);
+		height: 500px;
+
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	&__carne {
+		background-image: url(../src/images/carne.jpg);
+		height: 500px;
+
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	&__dish {
+		background-image: url(../src/images/tacos.jpg);
+		height: 500px;
+
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	&__dessert {
+		background-image: url(../src/images/dessert.jpg);
+		height: 500px;
+
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	&__drinks {
+		background-image: url(../src/images/drink.jpg);
+		height: 500px;
+
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}

@@ -9,7 +9,7 @@ header {
 nav ul {
 	display: flex;
 	justify-content: center;
-	background-color: lighten($Orange, 15%);
+	background-color: $Accent;
 	height: 80px;
 	align-items: center;
 }

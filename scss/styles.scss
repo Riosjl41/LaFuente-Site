@@ -1,7 +1,11 @@
 @import "config";
 @import "_nav";
 @import "_about";
+@import "_menu";
 
+html {
+	scroll-behavior: smooth;
+}
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -9,7 +13,7 @@
 }
 
 body {
-	background: #ffffff;
+	background: lighten($Orange, 20%);
 }
 
 .title {
