@@ -1,3 +1,14 @@
 $Orange: #ffc278;
 $Blue: #5d82af;
 $Accent: #ed252b;
+
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
