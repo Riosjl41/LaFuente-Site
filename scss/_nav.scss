@@ -1,15 +1,15 @@
 @import "config";
 
 header {
-	top: 0;
 	position: fixed;
+	z-index: 999;
 	width: 100%;
+	top: 0;
+	font-weight: bolder;
 }
-
 nav ul {
 	display: flex;
 	justify-content: center;
-	background-color: $Orange;
 	height: 80px;
 	align-items: center;
 }

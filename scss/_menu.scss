@@ -3,10 +3,34 @@
 .menu {
 	height: 200vh;
 	color: $Blue;
+	font-size: 25px;
+	line-height: 2.5;
+	position: relative;
 
 	&__heading {
 		text-align: center;
 		font-size: 3rem;
 		padding: 100px;
+	}
+	&__app {
+		@include menuCard;
+		top: 750px;
+		left: 30px;
+		height: 90vh;
+	}
+
+	&__tb {
+		@include menuCard;
+		top: 1000px;
+		right: 30px;
+		height: 90vh;
+	}
+
+	h1 {
+		font-size: 220px;
+	}
+	h2 {
+		font-size: 65px;
+		font-family: 'Pacifico', cursive, Arial, Helvetica, sans-serif;
 	}
 }

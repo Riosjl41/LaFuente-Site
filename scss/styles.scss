@@ -18,6 +18,7 @@ body {
 	background-color: #f2eeeb;
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .title {
@@ -27,7 +28,8 @@ body {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	color: $Accent;
+	color: $Orange;
+	font-family: 'Pacifico', cursive, Arial, Helvetica, sans-serif;
 
 	&__name {
 		margin-left: 20px;
