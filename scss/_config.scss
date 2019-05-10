@@ -5,9 +5,7 @@ $Accent: #ed252b;
 //Mixins
 
 @mixin menuCard {
-	position: absolute;
 	border: 3px double $Orange;
-	width: 40%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

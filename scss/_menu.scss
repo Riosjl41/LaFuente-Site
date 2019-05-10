@@ -5,25 +5,48 @@
 	color: $Blue;
 	font-size: 25px;
 	line-height: 2.5;
-	position: relative;
 
 	&__heading {
 		text-align: center;
 		font-size: 3rem;
 		padding: 100px;
 	}
+	&__items {
+		display: grid;
+		grid-template-columns: repeat(7, 1fr);
+		grid-template-areas: ". app app app . . ." ". . . tbl tbl tbl ." ". din din din . . ." ". . . dish dish dish ."
+			". des des des . . ." ". . . drink drink drink .";
+		grid-row-gap: 50px;
+	}
+
 	&__app {
 		@include menuCard;
-		top: 750px;
-		left: 30px;
-		height: 90vh;
+		grid-area: app;
 	}
 
 	&__tb {
 		@include menuCard;
-		top: 1000px;
-		right: 30px;
-		height: 90vh;
+		grid-area: tbl;
+	}
+
+	&__dinners {
+		@include menuCard;
+		grid-area: din;
+	}
+
+	&__dish {
+		@include menuCard;
+		grid-area: dish;
+	}
+
+	&__dessert {
+		@include menuCard;
+		grid-area: des;
+	}
+
+	&__drinks {
+		@include menuCard;
+		grid-area: drink;
 	}
 
 	h1 {
