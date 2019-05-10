@@ -1,0 +1,15 @@
+@import "_config";
+
+.info {
+	height: 75vh;
+	background-color: $Blue;
+}
+
+.mapwrapper {
+	position: relative;
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 50px auto 50px auto;
+}
