@@ -29,12 +29,13 @@ body {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	color: $Orange;
-	font-family: 'Pacifico', cursive, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-family: caslon, Georgia, "Times New Roman", Times, serif;
 
 	&__name {
 		margin-left: 20px;
 		font-weight: 800;
 		font-size: 4rem;
+		text-shadow: 2px 2px $Orange;
 	}
 }

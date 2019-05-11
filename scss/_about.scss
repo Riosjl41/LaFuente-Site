@@ -27,6 +27,11 @@
 		height: 70vh;
 		display: flex;
 
+		&-text {
+			padding: 20px;
+			column-count: 2;
+		}
+
 		&--left {
 			width: 50vw;
 			display: flex;
