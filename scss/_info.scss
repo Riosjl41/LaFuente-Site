@@ -3,6 +3,25 @@
 .info {
 	height: 75vh;
 	background-color: $Blue;
+	display: flex;
+	justify-content: space-around;
+
+	&__map {
+		display: flex;
+		align-items: center;
+	}
+
+	&__hours {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	&__address {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 }
 
 .mapwrapper {
