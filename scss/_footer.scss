@@ -1,0 +1,17 @@
+@import "_config";
+footer {
+	background-color: $Orange;
+}
+
+.footer {
+	&--wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		p {
+			font-size: 23px;
+			padding: 0 10px;
+		}
+	}
+}
