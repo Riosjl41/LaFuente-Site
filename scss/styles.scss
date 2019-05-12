@@ -40,3 +40,30 @@ body {
 		text-shadow: 2px 2px $Orange;
 	}
 }
+
+.tagline {
+	margin-top: 200px;
+	color: white;
+	background-color: $Blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+}
+
+.pictures {
+	display: flex;
+	height: 70vh;
+
+	&--1 {
+		background-image: url(../src/images/Nachos.jpg);
+		background-size: cover;
+		width: 50%;
+	}
+
+	&--2 {
+		background-image: url(../src/images/tacos_drink.jpg);
+		background-size: cover;
+		width: 50%;
+	}
+}

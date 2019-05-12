@@ -5,7 +5,7 @@ header {
 	z-index: 999;
 	width: 100%;
 	top: 0;
-	font-weight: bolder;
+	font-weight: 1000;
 	background-color: $Orange;
 }
 nav ul {
@@ -29,4 +29,11 @@ nav li {
 			text-decoration: underline;
 		}
 	}
+}
+
+.logo {
+	border-style: double;
+	font-size: 24px;
+	font-weight: bolder;
+	text-transform: uppercase;
 }
