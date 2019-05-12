@@ -4,13 +4,14 @@
 	color: $Blue;
 	font-size: 25px;
 	line-height: 2.5;
+	font-family: caslon, Georgia, "Times New Roman", Times, serif;
+	position: relative;
 
 	&__heading {
 		text-align: center;
 		font-size: 220px;
 		padding: 20px;
 		margin: 0;
-		font-family: caslon, Georgia, "Times New Roman", Times, serif;
 	}
 	&__items {
 		display: grid;
@@ -56,6 +57,32 @@
 	}
 	h2 {
 		font-size: 65px;
-		font-family: 'Pacifico', cursive, Arial, Helvetica, sans-serif;
+	}
+}
+
+.icon {
+	&--taco {
+		position: absolute;
+		right: 370px;
+		top: 900px;
+		width: 100px;
+	}
+	&--drink {
+		position: absolute;
+		left: 30px;
+		top: 2200px;
+	}
+	&--nacho {
+		margin-left: 10px;
+	}
+	&--steak {
+		position: absolute;
+		left: 710px;
+		top: 1700px;
+	}
+	&--dessert {
+		position: absolute;
+		right: 30px;
+		top: 3000px;
 	}
 }
