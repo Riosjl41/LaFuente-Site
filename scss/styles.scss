@@ -4,6 +4,7 @@
 @import "_menu";
 @import "_info";
 @import "_footer";
+@import "_mobile";
 
 html {
 	box-sizing: border-box;
@@ -36,13 +37,12 @@ body {
 	&__name {
 		margin-left: 20px;
 		font-weight: 800;
-		font-size: 4rem;
+		font-size: 2em;
 		text-shadow: 2px 2px $Orange;
 	}
 }
 
 .tagline {
-	margin-top: 200px;
 	color: white;
 	background-color: $Blue;
 	display: flex;

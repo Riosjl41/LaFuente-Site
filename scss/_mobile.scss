@@ -1,0 +1,97 @@
+@import "_config";
+
+@include mediaSm {
+	* {
+		margin-block-start: 0;
+		margin-block-end: 0;
+	}
+
+	.title {
+		&__name {
+			margin: 0;
+			font-weight: 800;
+			font-size: 1rem;
+			text-shadow: 2px 2px $Orange;
+			text-align: center;
+		}
+	}
+	.nav__btn {
+		display: block;
+	}
+	nav {
+		display: none;
+	}
+
+	.about {
+		&__restaurant {
+			display: none;
+		}
+		&__desc {
+			width: 95%;
+		}
+		&__greeting {
+			height: 50vh;
+			margin: 40px;
+		}
+	}
+	.tagline {
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	#images {
+		flex-direction: column;
+		height: 100vh;
+	}
+
+	#image1 {
+		width: 100%;
+		height: 50vh;
+	}
+	#image2 {
+		width: 100%;
+		height: 50vh;
+	}
+	.menu {
+		margin-top: 0;
+		&__items {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 200px;
+		}
+		&__heading {
+			padding: 0;
+		}
+		img[class^="icon"] {
+			display: none;
+		}
+	}
+	.info {
+		flex-direction: column;
+		height: auto;
+		margin-top: 0;
+		padding: 100px;
+		line-height: 1.8em;
+
+		&__map {
+			display: none;
+		}
+		&__address {
+			margin: 50px;
+		}
+
+		img {
+			display: none;
+		}
+	}
+	.footer {
+		padding: 20px;
+
+		&--wrapper {
+			flex-direction: column;
+			p {
+				display: none;
+			}
+		}
+	}
+}

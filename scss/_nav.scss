@@ -20,7 +20,7 @@ nav li {
 	list-style: none;
 	padding: 0 5vw;
 	font-size: 1.5rem;
-
+	position: relative;
 	a {
 		text-decoration: none;
 		color: darken($Blue, 20%);
@@ -29,6 +29,39 @@ nav li {
 			text-decoration: underline;
 		}
 	}
+}
+
+.nav__btn {
+	position: absolute;
+	z-index: 999999999;
+	right: 35px;
+	top: 25px;
+	cursor: pointer;
+	display: none;
+}
+
+.line {
+	&-1,
+	&-2,
+	&-3 {
+		width: 35px;
+		height: 5px;
+		background-color: black;
+		margin: 4px 0;
+		transition: 0.4s;
+	}
+}
+
+.change.line-1 {
+	transform: rotate(-45deg) translate(-7px, 6px);
+}
+
+.change.line-2 {
+	opacity: 0;
+}
+
+.change.line-3 {
+	transform: rotate(45deg) translate(-9px, -6px);
 }
 
 .logo {

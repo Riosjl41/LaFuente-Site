@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto"
+            rel="stylesheet">
         <title>La Fuente Mexican Restaurant</title>
     </head>
     <body>
@@ -14,19 +16,25 @@
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
 
-                    <img src=images/FuenteIcon.png width='80px' />
+                    <li class='logo'>La Fuente</li>
                     <li>
-                        <a href="#">Menu</a>
+                        <a href="#menu">Menu</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#info">Info</a>
                     </li>
 
                 </ul>
+
             </nav>
+            <div class="nav__btn" onclick="toggleNav(this)">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
         </header>
         <main>
             <section class='title'>
@@ -35,30 +43,221 @@
                     <h2>Mexican Restaurant</h2>
                 </div>
             </section>
-            <section class="about">
+            <section id='about' class="about">
                 <div class="about__greeting">
                     <h2 class='about__heading'>
                         ¡Bienvenidos!
                     </h2>
-                    <P>
-                        El Burro is a casual burreria that serves TexMex at
-                        Byporten Shopping, Oslo. At El Burro passion is the most
+                    <P class='about__desc'>
+                        La Fuente is a casual restaurant that serves Mexican
+                        Food in
+                        Sparks, NV. At La Fuente passion is the most
                         important ingredient, and we bring you the beauty of
                         Mexican flavours in every bite.
                     </P>
                 </div>
-                <div class="about__images">
-                    <div class="about__images--left">
-                    </div>
-                    <div class="about__images--right">
+                <div class="about__restaurant">
+                    <div class="about__restaurant--left">
+                        <h1 class='about__restaurant--left-heading'>Our Story</h1>
+                        <p class='about__restaurant-text'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Duis egestas neque vitae scelerisque cursus.
+                            Vestibulum laoreet porta metus quis cursus. Praesent
+                            efficitur dolor fringilla egestas commodo.
+                            Suspendisse vehicula, arcu vitae ultrices interdum,
+                            dui ligula semper nulla, ac elementum nisi libero
+                            quis sapien. Donec egestas dui quis ornare
+                            tincidunt. Cras libero nulla, rhoncus a gravida in,
+                            porttitor sit amet massa. Nunc bibendum lorem leo,
+                            ut tincidunt ipsum lacinia eget. Aenean vel
+                            facilisis felis. Curabitur ut eros id ante faucibus
+                            convallis ac et arcu. Cras auctor sed lorem posuere
+                            luctus. Integer quis risus lacinia, luctus sapien
+                            ac, malesuada est. Curabitur libero leo, bibendum
+                            efficitur euismod et, pharetra et nibh. Donec at
+                            mattis nunc. Sed bibendum elit ac mauris rutrum
+                            gravida. Duis id purus pellentesque tellus aliquet
+                            suscipit.
 
+                            Suspendisse bibendum accumsan fermentum. Phasellus
+                            lobortis ac ligula ac pharetra. Aliquam venenatis
+                            dolor malesuada imperdiet congue.
+
+                        </p>
+                    </div>
+                    <div class="about__restaurant--right">
+                        <img src=images/restaurant__about.jpg
+                        width='80%' />
                     </div>
 
                 </div>
             </section>
+            <div class='tagline'>
+                <h1>If you like Mexican Food, you will love La Fuente.</h1>
+            </div>
+            <div class="pictures">
+                <div class="pictures--1">
+
+                </div>
+                <div class="pictures--2">
+
+                </div>
+
+            </div>
+            <section id='menu' class="menu">
+                <h1 class='menu__heading'>Menu</h1>
+                <div class="menu__items">
+                    <img
+                        class='icon--nacho'
+                        src="https://img.icons8.com/ios/100/000000/nachos.png">
+                    <div class="menu__app">
+                        <h2>Appetizers</h2>
+                        <ol>
+                            <li>
+                                Queso Fundido $5.50
+                            </li>
+                            <li>
+                                Guacamole $5.95
+                            </li>
+                            <li>
+                                Nachos $8.75
+                            </li>
+                            <li>
+                                Quesadilla $8.75
+                            </li>
+                            <li>
+                                Ceviche $11.95
+                            </li>
+                        </ol>
+                    </div>
+                    <img class='icon--taco'
+                        src="https://img.icons8.com/ios/100/000000/taco.png">
+                    <div class="menu__tb">
+                        <h2>TBT</h2>
+                        <ol>
+                            <li>
+                                Tacos $2.75
+                            </li>
+                            <li>
+                                Burritos $5.95
+                            </li>
+                            <li>
+                                Tortas $6.50
+                            </li>
+                        </ol>
+
+                    </div>
+
+                    <div class="menu__dinners">
+                        <h2>Dinners</h2>
+                        <ol>
+                            <li>
+                                Tampiquena $15.95
+                            </li>
+                            <li>
+                                Carne Asada $13.95
+                            </li>
+                            <li>
+                                Milaneza $13.95
+                            </li>
+                            <li>
+                                Fajitas $14.95
+                            </li>
+                            <li>
+                                Carnitas $13.95
+                            </li>
+                        </ol>
+                    </div>
+                    <img
+                        class='icon--steak'src="https://img.icons8.com/ios/100/000000/steak-hot.png">
+                    <div class="menu__dish">
+                        <h2>Combinations</h2>
+                        <ol>
+                            <li>
+                                Burrito Dinner $12.95
+                            </li>
+                            <li>
+                                Taco Dinner $13.95
+                            </li>
+                            <li>
+                                Enchiladas $9.95
+                            </li>
+                            <li>
+                                Chile Relleno $11.95
+                            </li>
+                            <li>
+                                Tostadas $13.95
+                            </li>
+                            <li>
+                                Chimichanga Dinner $13.95
+                            </li>
+                        </ol>
+                    </div>
+                    <img class='icon--dessert'
+                        src="https://img.icons8.com/ios/100/000000/ice-cream-bowl.png">
+                    <div class="menu__dessert">
+                        <h2>Dessert</h2>
+                        <ol>
+                            <li>Flan $4.00</li>
+                            <li>Nieve Frita $5.00</li>
+                            <li>Sopapillas $3.75</li>
+                        </ol>
+                    </div>
+                    <img class='icon--drink'
+                        src="https://img.icons8.com/ios/100/000000/cocktail.png">
+                    <div class="menu__drinks">
+                        <h2>Drinks</h2>
+                        <ol>
+                            <li>Domestic Beer $3.00</li>
+                            <li>Draft Beer $3.00</li>
+                            <li>Imported Beers $4.00</li>
+                            <li>Wine (glass) $3.75</li>
+                            <li>Tequila Shot $4.00</li>
+                            <li>La Cazuela $8.00</li>
+                            <li>Soda $1.95</li>
+                            <li>Margaritas $6.00</li>
+                            <li>Flavore Margarita $7.00</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <section id='info' class='info'>
+                <div class="info__address">
+                    <img
+                        src="https://img.icons8.com/ios/100/000000/fountain.png">
+                    <h3>Visit Us</h3>
+                    <h4>790 Baring Blvd</h4>
+                    <h4>Sparks, NV 89434</h4>
+
+                </div>
+                <div class="info__map">
+                    <div class="mapwrapper">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.1390035781424!2d-119.73450298467067!3d39.55647317947433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDMzJzIzLjMiTiAxMTnCsDQzJzU2LjMiVw!5e0!3m2!1sen!2sus!4v1557528145103!5m2!1sen!2sus"
+                            width="500" height="500" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="info__hours">
+                    <h3>Opening Hours</h3>
+                    <h4>Sunday - Thursday</h4>
+                    <h4>10:00AM - 9:00PM</h4>
+                    <h4>Friday & Saturday</h4>
+                    <h4>10:00AM - 10:00PM</h4>
+                </div>
+            </section>
         </main>
         <footer>
-
+            <div class="footer--wrapper">
+                <h3>lafuentemx@gmail.com</h3>
+                <p>|</p>
+                <h3>775-331-1483</h3>
+                <p>|</p>
+                <h3>instagram</h3>
+                <p>|</p>
+                <h3>facebook</h3>
+            </div>
         </footer>
-        <script type="text/javascript" src="js/bundle.js"></script></body>
+        <script src='js/index.js'></script>
+    <script type="text/javascript" src="js/bundle.js"></script></body>
 </html>
