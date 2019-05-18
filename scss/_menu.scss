@@ -2,7 +2,7 @@
 
 .menu {
 	color: $Blue;
-	font-size: 25px;
+	font-size: 1.3rem;
 	line-height: 2.5;
 	font-family: caslon, Georgia, "Times New Roman", Times, serif;
 	position: relative;
@@ -10,7 +10,7 @@
 
 	&__heading {
 		text-align: center;
-		font-size: 5em;
+		font-size: 5rem;
 		padding: 20px;
 		margin: 0;
 	}
@@ -54,7 +54,7 @@
 	}
 
 	h2 {
-		font-size: 2em;
+		font-size: 2rem;
 	}
 }
 

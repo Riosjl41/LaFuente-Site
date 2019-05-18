@@ -1,0 +1,43 @@
+.title {
+	background-image: url(../src/images/taiana-martinez-tai-s-captures-1430583-unsplash.jpg);
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: #ffffff;
+	font-family: caslon, Georgia, "Times New Roman", Times, serif;
+
+	&__name {
+		margin-left: 20px;
+		font-weight: 800;
+		font-size: 4rem;
+		text-shadow: 2px 2px $Orange;
+	}
+}
+
+.tagline {
+	color: white;
+	background-color: $Blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+}
+
+.pictures {
+	display: flex;
+	height: 70vh;
+
+	&--1 {
+		background-image: url(../src/images/Nachos.jpg);
+		background-size: cover;
+		width: 50%;
+	}
+
+	&--2 {
+		background-image: url(../src/images/tacos_drink.jpg);
+		background-size: cover;
+		width: 50%;
+	}
+}
