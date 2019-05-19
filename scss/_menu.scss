@@ -57,30 +57,3 @@
 		font-size: 2rem;
 	}
 }
-
-.icon {
-	&--taco {
-		position: absolute;
-		right: 370px;
-		top: 900px;
-		width: 100px;
-	}
-	&--drink {
-		position: absolute;
-		left: 30px;
-		top: 2200px;
-	}
-	&--nacho {
-		margin-left: 10px;
-	}
-	&--steak {
-		position: absolute;
-		left: 710px;
-		top: 1700px;
-	}
-	&--dessert {
-		position: absolute;
-		right: 30px;
-		top: 3000px;
-	}
-}

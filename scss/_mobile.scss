@@ -1,5 +1,28 @@
 @import "_config";
 
+@include mediaLg {
+	.title {
+		&__name {
+			margin-block-start: 0;
+			margin-block-end: 0;
+		}
+	}
+
+	.about {
+		&__restaurant {
+			display: none;
+		}
+		&__desc {
+			width: 95%;
+		}
+	}
+
+	.mapwrapper {
+		width: 350px;
+		height: 350px;
+	}
+}
+
 @include mediaMd {
 	* {
 		margin-block-start: 0;
@@ -63,9 +86,6 @@
 		}
 		&__heading {
 			padding: 0;
-		}
-		img[class^="icon"] {
-			display: none;
 		}
 	}
 	.info {
