@@ -50,7 +50,20 @@
 	.nav__btn {
 		display: block;
 	}
-	nav {
+	nav ul {
+		flex-direction: column;
+		text-align: center;
+		height: 100vh;
+		.logo {
+			display: none;
+		}
+	}
+	nav li {
+		padding: 20px;
+		font-size: 3rem;
+	}
+
+	.show {
 		display: none;
 	}
 
