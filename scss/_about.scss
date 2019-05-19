@@ -2,7 +2,7 @@
 
 .about {
 	&__greeting {
-		height: 90vh;
+		height: 80vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -30,6 +30,7 @@
 		height: 70vh;
 		display: flex;
 		margin-top: 120px;
+		margin-bottom: 150px;
 
 		&-text {
 			padding: 20px;

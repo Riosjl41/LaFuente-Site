@@ -31,7 +31,7 @@ $Accent: #ed252b;
 }
 
 @mixin mediaXl {
-	@media screen and (min-width: 1172px) and (max-width: 1300px) {
+	@media screen and (min-width: 1172px) {
 		@content;
 	}
 }
